@@ -366,3 +366,174 @@ nav ul li:hover .subMenu{
     margin-left: 100px;
     margin-top: 20px    ;
 }
+
+/********************************becomesellerBanner_Container*******************/
+.becomesellerBanner_Container{
+    margin: 50px 0px;
+    position: relative;
+
+}
+.becomesellerBanner_Container img{
+    width: 100%;
+}
+.becomeSeller_Content{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100%;
+    padding: 40px 0px;
+}
+.becomeSeller_content_content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.becomerSeller_appDownload{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.becomerSeller_appDownload img{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.becomeSeller_content_content h2{
+    color:rgb(85, 133, 248) ;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.becomeSeller_content_content h1{
+    color: var(--hoverTextColor);
+    font-size: 50px;
+    width: 60%;
+    text-align: right;
+}
+.becomerSeller_appDownload_container{
+    display: flex;
+}
+
+
+/*****************meesho_supper_container***************************/
+.meeesho_benifit_image{
+    width: 20px;
+    margin-right: 10px;
+}
+.meesho_supper_benifit{
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+    border-right: 2px solid white;
+    height: 25px;
+}
+.meesho_supper_benifit:first-child{
+    padding: 0;
+    padding-right: 40px;
+}
+.meesho-suppliear_benifit_container{
+    display: flex;
+    align-items: center;
+    margin: 40px 0px;
+}
+.meesho_supper_container{
+    position: relative;
+}
+.meesho_supper_container_content{
+    position: absolute;
+    top: 0;
+    padding: 20px 30px;
+    color:white;
+}
+.signup_btn_now{
+    background-color: white;
+    color:var(--hoverTextColor);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.Product_container_You{
+    min-height: 500px;
+    /* background-color: #ccc; */
+    padding: 10px;
+}
+.product_container_you_content{
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    height: 100%;
+    gap:30px;
+}
+.product_category_you_aside{
+    /* background-color: red; */
+    height: 100%;
+}
+.product_category_display{
+    /* background-color: green; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(250px,1fr));
+}
+.search_category_input{
+    display: flex;
+    padding: 15px;
+    font-size: 18px;
+    border:2px solid #ccc;
+    border-radius: 5px;
+}
+.search_category_input input{
+    font-size: 18px;
+    width: 100%;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    padding: 0px 10px;
+}
+.search_category_input input::placeholder{
+    font-size: 15px;
+}
+.display_Category_list{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.display_Category_list label{
+    margin: 3px 0px;
+    text-transform: capitalize;
+}
+
+
+.productCard{
+    max-width: 250px;
+    padding: 10px;
+    box-shadow: -1px -1px 5px rgba(0,0,0,0.1),
+    1px 1px 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product_image{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.product_image img{
+    /* width: 200px; */
+    width: fit-content;
+    height: 170px;
+}
+.product_price{
+    font-weight: 550;
+    font-size: 22px;
+    color:black;
+}
+.product_name{
+    text-transform: capitalize;
+}
